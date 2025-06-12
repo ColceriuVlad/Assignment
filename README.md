@@ -82,15 +82,15 @@ Folder Features -> Login.Feature
 Folder Features -> Registration.Feature
 
 Project 2. Petstore wich has
-  Features
+  * Features
    - PetStore.feature (Actual automated features)
-  Models -> Pet
+  *  Models -> Pet
    - Category.cs (Model for the category Object included in the Pet object)
    - Pet.cs (Model for the Pet object)
-  Services
+  *  Services
      - IPetStoreService.cs (Interface for the operations used by the PetStore)
      - PetStoreService.cs (Service written to use the Pet Store API) (CRUD operations)
-  Stepdefinitions
+  *  Stepdefinitions
      - PetStoreStepDefinitions.cs (includes all the steps used by Petstore.feature)
 
 
