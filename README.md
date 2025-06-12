@@ -77,21 +77,33 @@ Automated 4 endpoints from [Swagger Petstore](https://petstore.swagger.io):
 ##  Solution 
 The solution is called Assignment and has 2 projects + the current readme file wich describes the project
 
-Project 1. GameTwistManual in wich you can find the 2 features for the proposed manual tests
-Folder Features -> Login.Feature
-Folder Features -> Registration.Feature
+## Project 1. GameTwistManual in wich you can find the 2 features for the proposed manual tests
 
-Project 2. Petstore wich has
-  * Features
-    - PetStore.feature (Actual automated features)
-  *  Models
-  *   - Category.cs (Model for the category Object included in the Pet object)
-      - - Pet.cs (Model for the Pet object)
-  *  Services
-  *  - IPetStoreService.cs (Interface for the operations used by the PetStore)
-     -  - PetStoreService.cs (Service written to use the Pet Store API) (CRUD operations)
-  *  Stepdefinitions
-  *   - PetStoreStepDefinitions.cs (includes all the steps used by Petstore.feature)
+### 🔹 Features
+
+- `Login.feature` – Gherkin Login scenarios for manual GameTwist test cases
+- `Registration.feature` – Gherkin Registration scenarios for manual GameTwist test cases
+
+
+## Project 2. Petstore wich has
+Features
+Models
+Services
+Stepdefinitions
+
+### 🔹 Features
+- `PetStore.feature` – Gherkin scenarios for automating PetStore API requests
+
+### 🔹 Models
+- `Category.cs` – Model representing the `Category` object included in the Pet object
+- `Pet.cs` – Model representing the main `Pet` object used in API payloads
+
+### 🔹 Services
+- `IPetStoreService.cs` – Interface for defining PetStore API operations (CRUD)
+- `PetStoreService.cs` – Implementation of the PetStore API service using RestSharp
+
+### 🔹 StepDefinitions
+- `PetStoreStepDefinitions.cs` – Step definitions implementing steps from `PetStore.feature` using SpecFlow
 
 
 For manual task the following test cases were written
