@@ -6,10 +6,10 @@ This project is a QA assignment for testing the **Login** and **Registration** f
 
 It includes:
 
-- ✅ Manual Test Case Documentation
-- ✅ Test Automation Recommendations
-- ✅ C# API Test Automation for Swagger Petstore
-- ✅ Reqnroll automation structure
+- Manual Test Case Documentation
+- Test Automation Recommendations
+- C# API Test Automation for Swagger Petstore
+- Reqnroll automation structure
 
 ---
 
