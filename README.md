@@ -83,15 +83,15 @@ Folder Features -> Registration.Feature
 
 Project 2. Petstore wich has
   * Features
-   - PetStore.feature (Actual automated features)
-  *  Models -> Pet
-   - Category.cs (Model for the category Object included in the Pet object)
-   - Pet.cs (Model for the Pet object)
+    - PetStore.feature (Actual automated features)
+  *  Models
+  *   - Category.cs (Model for the category Object included in the Pet object)
+      - - Pet.cs (Model for the Pet object)
   *  Services
-     - IPetStoreService.cs (Interface for the operations used by the PetStore)
-     - PetStoreService.cs (Service written to use the Pet Store API) (CRUD operations)
+  *  - IPetStoreService.cs (Interface for the operations used by the PetStore)
+     -  - PetStoreService.cs (Service written to use the Pet Store API) (CRUD operations)
   *  Stepdefinitions
-     - PetStoreStepDefinitions.cs (includes all the steps used by Petstore.feature)
+  *   - PetStoreStepDefinitions.cs (includes all the steps used by Petstore.feature)
 
 
 For manual task the following test cases were written
