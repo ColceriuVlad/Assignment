@@ -77,7 +77,7 @@ Automated 4 endpoints from [Swagger Petstore](https://petstore.swagger.io):
 ##  Solution 
 The solution is called Assignment and has 2 projects + the current readme file wich describes the project
 
-## Project 1. GameTwistManual in wich you can find the 2 features for the proposed manual tests
+## Project 1. GameTwistManual
 
 ### 🔹 Features
 
@@ -85,7 +85,7 @@ The solution is called Assignment and has 2 projects + the current readme file w
 - `Registration.feature` – Gherkin Registration scenarios for manual GameTwist test cases
 
 
-## Project 2. Petstore wich has
+## Project 2. Petstore 
 Features
 Models
 Services
